@@ -1,0 +1,106 @@
+h2{
+    font-size: 36px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #404040;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+}   
+.testimonials{
+    background-color: #eeeeee;
+}
+.testimonial_cards {
+    width: 100%;
+    max-width: 1050px;
+    margin: 60px auto 0;
+    padding: 0;
+    display:flex;
+    flex-direction: column;
+}
+.customer-logos {
+    display: flex;
+    justify-content: space-between; 
+    overflow-x: auto;
+    width: 100%; 
+    /* margin: 40px 0 0 0; */
+}
+.test_image {
+    display: flex;
+    margin: 0 0 0 50px;
+}
+.test_image img {
+    margin-right: 10px; 
+}
+.test_image h4 {
+    font-size: 18px;
+    line-height: 24px;
+    color: #404040;
+    font-weight: 700;
+    font-family: "Montserrat";
+    margin:0;
+}
+.test_image p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #404040;
+    font-weight: 400;
+    font-family: "Dosis";
+    margin:0;
+}
+.slide {
+    margin: 0 30px 0 0;
+}
+.quotation_left {
+    display: flex;
+}
+.quote {
+    position: relative;/* Adjust the padding as needed */
+}
+
+.quote i {
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #535353; /* Adjust the color as needed */
+
+}
+
+.quote i:before {
+    content: '\f10d';
+    opacity: 0.6;
+    width: 38px;
+    height: 36px;
+    color: #535353;
+    /* background-color: #535353; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px; /* Add border-radius for a rounded shape */
+    font-family: 'FontAwesome'; /* Specify the FontAwesome font family */
+    /* margin-right: 13px; */
+}
+/* .test-desc{
+    display: flex ;
+} */
+.slick-prev, .slick-next {
+    flex: 0 0 auto !important;
+    border-radius: 19px !important;
+    width: 38px !important;
+    background-color: #ffffff !important;
+    border: 1px solid #dddddb !important;
+    color: #b6b5b5 !important;
+    font-size: 24px !important;
+    margin: 35px auto 0;
+    padding: 0 0 5px 0 !important;
+  }
+  .slick-prev:hover, .slick-next:hover {
+    background-color: #c1274a !important;
+    color: #fff !important;
+  }
+  .slick-prev:focus, .slick-next:focus {
+    border: 1px solid #ddd;
+    color: #ddd;
+    background-color: #fff;
+    outline: none;
+    box-shadow: none !important;
+  }
+  

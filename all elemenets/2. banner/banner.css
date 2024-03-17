@@ -1,0 +1,202 @@
+body{
+    margin:0;
+}
+.banner {
+    width: 100%;
+    position: relative;
+  }
+  .silde1 {
+    padding: 0.15% 0 1.786% 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("./images/banner.png");
+    background-size: cover;
+    background-position: center center;
+  }
+  .silde2 {
+    padding: 0.15% 0 1.80% 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("./images/img_lights.jpg");
+    background-size: cover;
+    background-position: center center;
+  }
+  .silde3 {
+    padding: 0.15% 0 1.80% 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("./images/img_mountains.jpg");
+    background-size: cover;
+    background-position: center center;
+  }
+  .banner .slick-next {
+    display: none !important;
+  }
+  .banner .slick-prev {
+    display: none !important;
+  }
+  .banner .slick-dots {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    text-align: center;
+  }
+  .banner .slick-dots li {
+    list-style: none;
+    width: 12px;
+    height: 12px;
+    background: grey;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+  }
+  .banner .slick-dots li.slick-active {
+    background: #fff;
+  }
+  .banner .slick-dots li button {
+    display: none;
+  }
+  ul.slick-dots {
+    padding-left: 0;
+  }
+  
+  /*banner Text */
+  div.banner-text {
+    margin-top: 180px;
+  }
+  .banner-text {
+    text-align: center;
+    color: white;
+  }
+  .banner-text h3 {
+    font-size: 36px;
+    font-family: "Dosis";
+    font-weight: 300;
+    margin-bottom: 5px;
+    top: 0;
+    line-height: 20px;
+  }
+  .banner-text h3::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid white;
+    width: 30px;
+    margin-left: 48.8%;
+    padding-top: 20px;
+  }
+  .banner-text h1 {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 91px;
+    padding-top: 0px;
+    margin-bottom: 0;
+  }
+  .banner-text h2 {
+    font-family: "Dosis";
+    font-size: 58px;
+    font-weight: 600;
+  }
+  .banner-text h2::after {
+    display: none;
+}
+@media screen and (max-width: 1394px) {
+  /* Banner */
+  div.banner-text {
+    margin-top: 110px;
+  }
+  ul.slick-dots {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 1060px) and (min-width: 769px)  {
+  /* Banner */
+  div.banner-text {
+    margin-top: 80px;
+  }
+  .banner-text h3 {
+    font-size: 32px;
+  }
+  .banner-text h1 {
+    font-size: 87px;
+  }
+  .banner-text h2 {
+    font-size: 54px;
+  }
+  ul.slick-dots {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* banner */
+  div.banner-text {
+    margin-top: 60px;
+  }
+  .banner-text h3 {
+    font-size: 26px;
+  }
+  .banner-text h1 {
+    font-size: 50px;
+    padding-bottom: 10px;
+  }
+  .banner-text h2 {
+    font-size: 40px;
+  }
+  ul.slick-dots {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 434px) {
+  /* Banner */
+  div.banner-text {
+    margin-bottom: 20%;
+  }
+  .banner-text h3 {
+    font-size: 32px;
+  }
+  .banner-text h1 {
+    font-size: 45px;
+    padding-bottom: 7px;
+  }
+  .banner-text h2 {
+    font-size: 35px;
+  }
+  .banner-text h3::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid white;
+    margin-left: 48%;
+    padding-top: 14px;
+  }
+}
+@media screen and (max-width: 375px) {
+
+  /* Banner */
+  .banner .slick-dots li {
+    width: 8px;
+    height: 8px;
+  }
+  .banner .slick-dots {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 320px) {
+  /* Banner */
+  .banner .slick-dots {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 280px) {
+  /* Banner */
+  .banner-text h3 {
+    font-size: 25px;
+  }
+  .banner-text h1 {
+    font-size: 40px;
+    padding-bottom: 7px;
+  }
+  .banner-text h2 {
+    font-size: 30px;
+  }
+  .banner-text h3::after {
+    margin-left: 45%;
+  }
+}

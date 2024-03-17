@@ -1,0 +1,94 @@
+
+@font-face {
+  font-family: "Dosis";
+  src: url("./Fonts/Dosis/static/Dosis-Regular.woff2") format("woff2"),
+    url("./Fonts/Dosis/static/Dosis-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}.testimonials {
+    background-color: #eeeeee;
+    margin:62px 0 0;
+    padding: 0 0 78px 0;
+  }
+  .testimonial_cards {
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto 0;
+    padding: 49px 0 0 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .testimonial_cards h2 {
+    font-size: 36px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #404040;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+  }
+  .testimonial {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    width: 100%;
+    margin: 40px 0 0 0;
+  }
+  .testimonial-quote-img{
+    margin: 0 15px 0 ;
+  }
+  .test_image {
+    display: flex;
+    margin: 20px 0 0 70px;
+  }
+  .test_image img {
+    margin-right: 10px;
+  }
+  .test_image h4 {
+    font-size: 18px;
+    line-height: 24px;
+    color: #404040;
+    font-weight: 700;
+    font-family: "Montserrat";
+    margin: 0;
+  }
+  .quotation_left p, .test_image p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #404040;
+    font-weight: 400;
+    font-family: "Dosis";
+    margin: 0;
+  }
+  .quotation_left p{
+    width: 278px;
+    /* margin: 0 10px 0 0; */
+  }
+  .quotation_left {
+    display: flex;
+  }
+  .slick-prev2, .slick-next2 {
+    flex: 0 0 auto !important;
+    border-radius: 19px !important;
+    width: 38px !important;
+    background-color: #ffffff !important;
+    border: 1px solid #dddddb !important;
+    color: #b6b5b5 !important;
+    font-size: 24px !important;
+    margin: 35px 0 0 0;
+    padding: 0 0 5px 0 !important;
+    align-items: center !important;
+  }
+  .slick-prev2:hover, .slick-next2:hover {
+    background-color: #c1274a !important;
+    color: #fff !important;
+  }
+  .slick-prev2:focus, .slick-next2:focus {
+    border: 1px solid #ddd;
+    color: #ddd;
+    background-color: #fff;
+    outline: none;
+    box-shadow: none !important;
+  }
+  

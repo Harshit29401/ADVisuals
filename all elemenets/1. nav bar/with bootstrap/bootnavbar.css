@@ -1,0 +1,125 @@
+
+@font-face {
+  font-family: "Dosis";
+  src: url("./Fonts/Dosis/static/Dosis-Regular.woff2") format("woff2"),
+    url("./Fonts/Dosis/static/Dosis-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.navbar {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1084px;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 100px;
+  font-size: 18px;
+  font-family: "Dosis", sans-serif;
+  line-height: 24px;
+}
+.ul-nav {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+.ul-nav li {
+  margin-top: 0;
+}
+.ul-nav li a {
+  padding: 12px;
+  text-decoration: none;
+  color: #000;
+}
+.logo {
+  margin-left: 0px;
+}
+.navbar .logo {
+  height: 50px;
+  margin-top: 0;
+}
+.buttonquote {
+  background-color: #c1274a;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.phone {
+  vertical-align: middle;
+  margin-right: 5px;
+  color: black;
+}
+.left-side {
+  display: flex;
+  align-items: center;
+}
+.right-side {
+  display: flex;
+  align-items: center;
+}
+.right-side a img {
+  margin-right: 5px;
+}
+.right-side > * {
+  margin-left: 20px;
+}
+.nav-link:focus {
+  color: #c1274a !important;
+  text-decoration: underline !important;
+  text-underline-offset: 5px !important;
+  text-decoration-thickness: 2px !important;
+}
+.collapsing {
+  transition: ease-in-out !important;
+}
+@media screen and (max-width: 1394px) {
+  /* Navigation Bar */
+  .navbar {
+    font-size: 13px;
+  }
+  .navbar .logo {
+    margin: 0;
+  }
+  .buttonquote {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  /*Navigation */
+  .navbar-collapse {
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+  }
+  .buttonquote {
+    margin-bottom: 10px;
+  }
+  .navbar-collapse ul {
+    flex-direction: column;
+    text-align: center;
+  }
+  .navbar .logo {
+    margin-left: 0;
+  }
+  .navbar-toggler {
+    margin-right: 10px;
+  } 
+}
+@media screen and (max-width: 375px) {
+  /* Navigation Bar */
+  .navbar .logo {
+    height: 30px;
+    width: 150px;
+  }
+}
