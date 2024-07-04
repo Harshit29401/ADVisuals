@@ -1,7 +1,7 @@
 ## Overview
 A Responsive Web Design of Ad-Visuals using HTML and CSS
 
-## Screenshot
+## Screenshots
 ![ADVisuals](images/Advisual%201.PNG)
 ![ADVisuals](images/Advisual%202.PNG)
 ![ADVisuals](images/Advisual%203.PNG)
